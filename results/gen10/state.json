@@ -1,0 +1,111 @@
+{
+  "phase_index": 20,
+  "admitted": {
+    "0": [
+      {
+        "id": "Dracula_snap_c001",
+        "path": "selfplay\\Dracula\\snapshots\\snap_c001.zip",
+        "cycle": 1,
+        "wr": 0.4985
+      },
+      {
+        "id": "Dracula_snap_c003",
+        "path": "selfplay\\Dracula\\snapshots\\snap_c003.zip",
+        "cycle": 3,
+        "wr": 0.5165
+      },
+      {
+        "id": "Dracula_snap_c005",
+        "path": "selfplay\\Dracula\\snapshots\\snap_c005.zip",
+        "cycle": 5,
+        "wr": 0.5095
+      },
+      {
+        "id": "Dracula_snap_c007",
+        "path": "selfplay\\Dracula\\snapshots\\snap_c007.zip",
+        "cycle": 7,
+        "wr": 0.517
+      },
+      {
+        "id": "Dracula_snap_c009",
+        "path": "selfplay\\Dracula\\snapshots\\snap_c009.zip",
+        "cycle": 9,
+        "wr": 0.5525
+      }
+    ],
+    "1": [
+      {
+        "id": "VanHelsing_snap_c001",
+        "path": "selfplay\\VanHelsing\\snapshots\\snap_c001.zip",
+        "cycle": 1,
+        "wr": 0.5205
+      },
+      {
+        "id": "VanHelsing_snap_c003",
+        "path": "selfplay\\VanHelsing\\snapshots\\snap_c003.zip",
+        "cycle": 3,
+        "wr": 0.5015000000000001
+      },
+      {
+        "id": "VanHelsing_snap_c005",
+        "path": "selfplay\\VanHelsing\\snapshots\\snap_c005.zip",
+        "cycle": 5,
+        "wr": 0.5
+      },
+      {
+        "id": "VanHelsing_snap_c007",
+        "path": "selfplay\\VanHelsing\\snapshots\\snap_c007.zip",
+        "cycle": 7,
+        "wr": 0.5185
+      },
+      {
+        "id": "VanHelsing_snap_c009",
+        "path": "selfplay\\VanHelsing\\snapshots\\snap_c009.zip",
+        "cycle": 9,
+        "wr": 0.527
+      }
+    ]
+  },
+  "champion": {
+    "0": {
+      "path": "selfplay\\Dracula\\snapshots\\snap_c009.zip",
+      "wr": 0.5525,
+      "cycle": 9
+    },
+    "1": {
+      "path": "./checkpoints/VanHelsing/FROZEN_VH_v1.zip",
+      "wr": 0.5056,
+      "cycle": 0
+    }
+  },
+  "last_admit": {
+    "0": 9,
+    "1": 9
+  },
+  "wr_prior": {
+    "0": {
+      "FROZEN_VanHelsing_v1": 0.5208837429572717,
+      "V4": 0.5114846896758416,
+      "V3": 0.6333067679125636,
+      "V4_eps10": 0.7159907814060911,
+      "Mix_V2V3V4": 0.6316777194063286,
+      "VanHelsing_snap_c001": 0.5524297751369074,
+      "VanHelsing_snap_c003": 0.535418652392695,
+      "VanHelsing_snap_c005": 0.5311179050472998,
+      "VanHelsing_snap_c007": 0.5245797324834194,
+      "VanHelsing_snap_c009": 0.5086505190311419
+    },
+    "1": {
+      "FROZEN_Dracula_v1": 0.5318985156348116,
+      "V4": 0.4916828215540296,
+      "V3": 0.5166905848341455,
+      "V4_eps10": 0.673525625615793,
+      "Mix_V2V3V4": 0.5163797618971959,
+      "Dracula_snap_c001": 0.5069856400841611,
+      "Dracula_snap_c003": 0.5004559100026492,
+      "Dracula_snap_c005": 0.4906728052240767,
+      "Dracula_snap_c007": 0.4956347097202394,
+      "Dracula_snap_c009": 0.4984329932949594
+    }
+  }
+}

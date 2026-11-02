@@ -1,0 +1,86 @@
+{
+  "results": {
+    "Dracula": {
+      "path": "./selfplay/Dracula/last.zip",
+      "vs_v4": {
+        "wr": 0.5615,
+        "wins": 5615,
+        "games": 10000,
+        "ci": 0.009725585372613824
+      },
+      "vs_frozen": {
+        "wr": 0.5332,
+        "wins": 5332,
+        "games": 10000,
+        "ci": 0.00977837223067316
+      },
+      "robust": {
+        "V4_eps10": {
+          "new": 0.7116666666666667,
+          "frozen": 0.7,
+          "diff": 0.011666666666666714,
+          "z": 0.9916997353538674
+        },
+        "Mix_V3V4": {
+          "new": 0.5933333333333334,
+          "frozen": 0.5623333333333334,
+          "diff": 0.031000000000000028,
+          "z": 2.432080939872733
+        }
+      },
+      "z_v4": 5.0457749291213885,
+      "z_frozen": 4.483721679790607
+    },
+    "VanHelsing": {
+      "path": "./selfplay/VanHelsing/last.zip",
+      "vs_v4": {
+        "wr": 0.548,
+        "wins": 5480,
+        "games": 10000,
+        "ci": 0.009754737072827745
+      },
+      "vs_frozen": {
+        "wr": 0.5312,
+        "wins": 5312,
+        "games": 10000,
+        "ci": 0.009780901967078497
+      },
+      "robust": {
+        "V4_eps10": {
+          "new": 0.7153333333333334,
+          "frozen": 0.6826666666666666,
+          "diff": 0.03266666666666673,
+          "z": 2.759968489869073
+        },
+        "Mix_V3V4": {
+          "new": 0.5483333333333333,
+          "frozen": 0.5316666666666667,
+          "diff": 0.016666666666666607,
+          "z": 1.295326644953534
+        }
+      },
+      "z_v4": 3.5596719278504616,
+      "z_frozen": 2.9580774455057535
+    },
+    "new_vs_new": {
+      "det": 0.5112,
+      "stoch": 0.5234
+    }
+  },
+  "verdict": {
+    "Dracula": {
+      "no_v4_regression": true,
+      "v4_improved": true,
+      "beats_frozen": true,
+      "user_rule_52": true,
+      "robust_ok": true
+    },
+    "VanHelsing": {
+      "no_v4_regression": true,
+      "v4_improved": true,
+      "beats_frozen": true,
+      "user_rule_52": true,
+      "robust_ok": true
+    }
+  }
+}

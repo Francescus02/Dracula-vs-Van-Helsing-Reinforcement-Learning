@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Project artifacts (large, regenerable)
+checkpoints/
+selfplay/
+selfplay_gen10/
+bc_cache/
+bc_history/
+tensorboard_logs/
+logs/
+probes_long/
+sp_smoke/
+release/
+
+# Data files
+data_*.npz
+*.zip
+*.npz
+*.pt
+*.pth
+*.bc_optimizer.pt
+*.tfevents.*
+
+# Scratch
+structure.txt
+*.tmp
